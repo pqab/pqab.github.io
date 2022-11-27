@@ -9,6 +9,7 @@ import Chip from '@mui/material/Chip';
 import IconButton from '@mui/material/IconButton';
 import Grid from '@mui/material/Grid';
 import Stack from '@mui/material/Stack';
+import Typography from '@mui/material/Typography';
 import { Box } from '@mui/system';
 import EmailIcon from '@mui/icons-material/Email';
 import FavoriteIcon from '@mui/icons-material/Favorite';
@@ -36,7 +37,7 @@ const BorderLinearProgress = styled(LinearProgress)(({ theme }) => ({
 function App() {
   return (
     <Box className='bg'>
-      <Grid container p={2} spacing={2}>
+      <Grid container p={2} pl={[2, 4, 8]} pr={[2, 4, 8]} spacing={2}>
         <Grid item xs={12}>
           <Card sx={{ width: 1 }}>
             <CardHeader
@@ -80,7 +81,12 @@ function App() {
           </Card>
         </Grid>
       </Grid>
-      <Grid container p={2} spacing={2}>
+      <Grid container p={2} pl={[2, 4, 8]} pr={[2, 4, 8]} spacing={2}>
+        <Grid item xs={12}>
+          <Typography variant="h4" color="secondary.main">
+            Skills
+          </Typography>
+        </Grid>
         {Skills.map(skill =>
           <Grid key={skill.key} item xs={12} md={4}>
             <Card sx={{ width: 1 }}>
