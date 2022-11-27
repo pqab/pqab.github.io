@@ -4,7 +4,7 @@ import ChatIcon from '@mui/icons-material/Chat';
 import StorageIcon from '@mui/icons-material/Storage';
 import TerminalIcon from '@mui/icons-material/Terminal';
 
-const Skills = [
+const SkillsData = [
   {
     'key': 'key-skills-programming',
     'header': {
@@ -262,4 +262,4 @@ const Skills = [
   }
 ]
 
-export default Skills;
+export default SkillsData;
