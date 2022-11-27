@@ -28,9 +28,9 @@ const Skills = () => (
             title={skill.header.title}
           />
           <CardContent>
-            <Stack direction='column' spacing={2}>
+            <Stack direction='column' spacing={1}>
               {skill.content.items.map(item =>
-                <Box key={item}>
+                <Box key={item.key}>
                   <Box mr={1}>{item.name}</Box>
                   <BorderLinearProgress variant='determinate' value={item.value} />
                 </Box>

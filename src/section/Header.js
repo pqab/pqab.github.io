@@ -31,15 +31,12 @@ const Header = () => (
         />
         <CardContent>
           <Stack spacing={2}>
-            <Stack direction='column'
-                justifyContent='left'
-                alignItems='flex-start'
-                spacing={2}>
+            <Stack direction='column' justifyContent='left' alignItems='flex-start'>
               <Chip className='bg-transparent' icon={<TerminalIcon />} label='7+ years of experiences in Software Engineering' />
               <Chip className='bg-transparent' icon={<PublicIcon />} label='Borned in Hong Kong, Located in Tokyo, Japan' />
               <Chip className='bg-transparent' icon={<FavoriteIcon />} label='Passionate about technology, self-motivated and willing to learn' />
             </Stack>
-            <Stack direction='row' spacing={2}>
+            <Stack direction='row' spacing={1}>
               <Chip label='Java'/>
               <Chip label='Micronaut'/>
               <Chip label='Kafka'/>
