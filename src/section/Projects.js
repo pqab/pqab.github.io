@@ -1,5 +1,4 @@
 import Box from '@mui/material/Box';
-import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardHeader from '@mui/material/CardHeader';
@@ -15,6 +14,7 @@ import Typography from '@mui/material/Typography';
 import ThumbUpAltIcon from '@mui/icons-material/ThumbUpAlt';
 
 // component
+import CardContainer from '../component/CardContainer';
 import GridContainer from '../component/GridContainer';
 import GridItem from '../component/GridItem';
 import SectionTitle from '../component/SectionTitle';
@@ -30,7 +30,7 @@ const Projects = () => (
     </GridItem>
     {ProjectsData.map(project =>
       <Grid key={project.key} item xs={12} md={4}>
-        <Card sx={{ width: 1 }}>
+        <CardContainer>
           <CardHeader
             avatar={project.header.avatar}
             title={project.header.title}
@@ -40,8 +40,8 @@ const Projects = () => (
               {project.content.text}
             </Typography>
             <List>
-              {project.content.items.map(item =>
-                <ListItem>
+              {project.content.items.map((item, index) =>
+                <ListItem key={project.key + '-' + index}>
                   <ListItemIcon>
                     <ThumbUpAltIcon />
                   </ListItemIcon>
@@ -50,14 +50,14 @@ const Projects = () => (
               )}
             </List>
           </CardContent>
-          <CardActions sx={{ flexWrap: 'wrap' }}>
+          <CardActions sx={{ flexWrap: 'wrap', marginTop: 'auto' }}>
             {project.content.skills.map(skill =>
               <Box key={skill.key} mb={1}>
                 <Chip label={skill.label} />
               </Box>
             )}
           </CardActions>
-        </Card>
+        </CardContainer>
       </Grid>
     )}
   </GridContainer>

@@ -23,7 +23,7 @@ const ExperiencesData = [
       'subheader': 'Digital Technology Developer Analyst'
     },
     'content': {
-      'text': 'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.'
+      'text': 'A global professional services company specializing in information technology (IT) services and consulting.'
     }
   },
   {
@@ -35,7 +35,7 @@ const ExperiencesData = [
       'subheader': 'Analyst Programmer'
     },
     'content': {
-      'text': 'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.'
+      'text': 'A startup high-tech company featured in the R&D of network technologies including data analysis, online games, Apps and more.'
     }
   },
   {
@@ -47,7 +47,7 @@ const ExperiencesData = [
       'subheader': 'Senior Developer'
     },
     'content': {
-      'text': 'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.'
+      'text': 'A financial daily newspaper publisher in Hong Kong.'
     }
   },
   {
@@ -57,9 +57,6 @@ const ExperiencesData = [
     'header': {
       'title': 'Coventry University',
       'subheader': 'Bachelor of Science with Honours First Class in Computing'
-    },
-    'content': {
-      'text': ''
     }
   }
 ]

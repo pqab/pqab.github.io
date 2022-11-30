@@ -45,11 +45,11 @@ function Experiences() {
                     title={experience.header.title}
                     subheader={experience.header.subheader}
                   />
-                  <CardContent>
+                  {experience.content && <CardContent>
                     <Typography variant="body2" color="text.secondary">
                       {experience.content.text}
                     </Typography>
-                  </CardContent>
+                  </CardContent>}
                 </Card>
               </TimelineContent>
             </TimelineItem>

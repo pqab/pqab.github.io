@@ -171,6 +171,10 @@ const ProjectsData = [
           'label': 'IBM DevOps'
         },
         {
+          'key': 'key-projects-katalon',
+          'label': 'Katalon'
+        },
+        {
           'key': 'key-projects-ibm-angular',
           'label': 'Angular'
         },

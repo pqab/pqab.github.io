@@ -1,63 +1,56 @@
 import Avatar from '@mui/material/Avatar';
-import Card from '@mui/material/Card';
+import Box from '@mui/material/Box';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardHeader from '@mui/material/CardHeader';
 import Chip from '@mui/material/Chip';
 import IconButton from '@mui/material/IconButton';
 import Stack from '@mui/material/Stack';
-import EmailIcon from '@mui/icons-material/Email';
-import FavoriteIcon from '@mui/icons-material/Favorite';
-import GitHubIcon from '@mui/icons-material/GitHub';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import PublicIcon from '@mui/icons-material/Public';
-import TerminalIcon from '@mui/icons-material/Terminal';
 
 // component
+import CardContainer from '../component/CardContainer';
 import GridContainer from '../component/GridContainer';
 import GridItem from '../component/GridItem';
+
+// data
+import HeaderData from '../data/HeaderData';
 
 // Header section
 const Header = () => (
   <GridContainer>
     <GridItem>
-      <Card sx={{ width: 1 }}>
+      <CardContainer>
         <CardHeader
           avatar={
-            <Avatar alt='PQAB' src='./pqab.png' />
+            <Avatar alt={HeaderData.alt} src='./pqab.png' />
           }
-          title='Pui Q'
-          subheader='Software Engineer'
+          title={HeaderData.title}
+          subheader={HeaderData.subheader}
         />
         <CardContent>
           <Stack spacing={2}>
             <Stack direction='column' justifyContent='left' alignItems='flex-start'>
-              <Chip className='bg-transparent' icon={<TerminalIcon />} label='7+ years of experiences in Software Engineering' />
-              <Chip className='bg-transparent' icon={<PublicIcon />} label='Borned in Hong Kong, Located in Tokyo, Japan' />
-              <Chip className='bg-transparent' icon={<FavoriteIcon />} label='Passionate about technology, self-motivated and willing to learn' />
+              {HeaderData.items.map(item =>
+                <Chip key={item.key} className='bg-transparent' icon={item.icon} label={item.label} />
+              )}
             </Stack>
-            <Stack direction='row' spacing={1}>
-              <Chip label='Java'/>
-              <Chip label='Micronaut'/>
-              <Chip label='Kafka'/>
-              <Chip label='Gradle'/>
-              <Chip label='Jenkins'/>
-              <Chip label='Kubernetes'/>
+            <Stack direction='row' spacing={1} sx={{ flexWrap: 'wrap' }}>
+              {HeaderData.skills.map(skill =>
+                <Box key={skill.key} mb={1}>
+                  <Chip label={skill.label} />
+                </Box>
+              )}
             </Stack>
           </Stack>
         </CardContent>
         <CardActions>
-          <IconButton aria-label='github'>
-            <GitHubIcon />
-          </IconButton>
-          <IconButton aria-label='linkedin'>
-            <LinkedInIcon />
-          </IconButton>
-          <IconButton aria-label='email'>
-            <EmailIcon />
-          </IconButton>
+          {HeaderData.contacts.map(contact =>
+            <IconButton key={contact.key} aria-label={contact.label} href={contact.link} target='_blank' rel='noopener noreferrer'>
+              {contact.icon}
+            </IconButton>
+          )}
         </CardActions>
-      </Card>
+      </CardContainer>
     </GridItem>
   </GridContainer>
 );
