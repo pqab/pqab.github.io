@@ -181,6 +181,11 @@ const SkillsData = [
           'value': 80
         },
         {
+          'key': 'key-skills-test-sonarqube',
+          'name': 'SonarQube',
+          'value': 60
+        },
+        {
           'key': 'key-skills-test-katalon',
           'name': 'Katalon',
           'value': 60

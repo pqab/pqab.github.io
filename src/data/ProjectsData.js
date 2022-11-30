@@ -66,6 +66,10 @@ const ProjectsData = [
         {
           'key': 'key-projects-streaming-kubernetes',
           'label': 'Kubernetes'
+        },
+        {
+          'key': 'key-projects-payment-sonar',
+          'label': 'SonarQube'
         }
       ]
     }
@@ -133,6 +137,10 @@ const ProjectsData = [
         {
           'key': 'key-projects-calculation-kubernetes',
           'label': 'Kubernetes'
+        },
+        {
+          'key': 'key-projects-payment-sonar',
+          'label': 'SonarQube'
         }
       ]
     }
@@ -351,16 +359,20 @@ const ProjectsData = [
           'label': 'Vue.js'
         },
         {
-          'key': 'key-projects-calculation-jenkins',
+          'key': 'key-projects-payment-jenkins',
           'label': 'Jenkins'
         },
         {
-          'key': 'key-projects-calculation-kibana',
+          'key': 'key-projects-payment-kibana',
           'label': 'Kibana'
         },
         {
-          'key': 'key-projects-chatbot-docker',
+          'key': 'key-projects-payment-docker',
           'label': 'Docker'
+        },
+        {
+          'key': 'key-projects-payment-sonar',
+          'label': 'SonarQube'
         }
       ]
     }
@@ -468,6 +480,10 @@ const ProjectsData = [
         {
           'key': 'key-projects-investment-wildfly',
           'label': 'Wildfly'
+        },
+        {
+          'key': 'key-projects-payment-sonar',
+          'label': 'SonarQube'
         }
       ]
     }

@@ -1,6 +1,6 @@
 import { createTheme } from '@mui/material/styles';
 import { indigo } from '@mui/material/colors';
-import { alpha } from "@mui/material";
+import { alpha } from '@mui/material';
 
 const Theme = createTheme({
   palette: {
