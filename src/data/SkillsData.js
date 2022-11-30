@@ -62,6 +62,11 @@ const SkillsData = [
           'key': 'key-skills-programming-angular',
           'name': 'Angular',
           'value': 50
+        },
+        {
+          'key': 'key-skills-programming-python',
+          'name': 'Python',
+          'value': 40
         }
       ]
     }
@@ -105,9 +110,14 @@ const SkillsData = [
           'value': 80
         },
         {
-          'key': 'key-skills-data-hibernate',
+          'key': 'key-skills-data-oracle',
           'name': 'Oracle',
           'value': 60
+        },
+        {
+          'key': 'key-skills-data-h2',
+          'name': 'H2 Database',
+          'value': 50
         },
         {
           'key': 'key-skills-data-ibm-watson',
@@ -120,8 +130,18 @@ const SkillsData = [
           'value': 50
         },
         {
+          'key': 'key-skills-data-node-red',
+          'name': 'Node-RED',
+          'value': 50
+        },
+        {
           'key': 'key-skills-data-microsoft-sql-server',
           'name': 'Microsoft SQL Server',
+          'value': 40
+        },
+        {
+          'key': 'key-skills-data-google-vision-api',
+          'name': 'Google Vision API',
           'value': 40
         }
       ]
@@ -214,7 +234,7 @@ const SkillsData = [
         {
           'key': 'key-skills-cicd-ibm-dev-ops',
           'name': 'IBM DevOps',
-          'value': 30
+          'value': 40
         },
         {
           'key': 'key-skills-cicd-github-actions',

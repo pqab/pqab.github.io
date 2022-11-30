@@ -1,314 +1,521 @@
-import WorkIcon from '@mui/icons-material/Work';
+import AccountBalanceWalletIcon from '@mui/icons-material/AccountBalanceWallet';
+import AccountTreeIcon from '@mui/icons-material/AccountTree';
+import AttachMoneyIcon from '@mui/icons-material/AttachMoney';
+import AutoModeIcon from '@mui/icons-material/AutoMode';
+import DynamicFeedIcon from '@mui/icons-material/DynamicFeed';
+import HealthAndSafetyIcon from '@mui/icons-material/HealthAndSafety';
+import PrecisionManufacturingIcon from '@mui/icons-material/PrecisionManufacturing';
+import SchoolIcon from '@mui/icons-material/School';
+import SmartToyIcon from '@mui/icons-material/SmartToy';
+import QueryStatsIcon from '@mui/icons-material/QueryStats';
 
 const ProjectsData = [
   {
-    'key': 'key-projects-streaming-platform',
+    'key': 'key-projects-data-streaming-platform',
     'header': {
-      'avator': <WorkIcon />,
-      'title': 'Streaming Platform',
+      'avatar': <PrecisionManufacturingIcon />,
+      'title': 'Data Streaming Platform',
     },
     'content': {
-      'text': 'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.',
+      'items': [
+        'Provide external source provider to publish source data without data losing',
+        'Generic system to process & aggregate the data by different configurations',
+        'Provide aggregated data for business statistic, analysis & reporting, etc...'
+      ],
       'skills': [
         {
-          'key': 'key-projects-1-java',
+          'key': 'key-projects-streaming-java',
           'label': 'Java'
         },
         {
-          'key': 'key-projects-1-micronaut',
+          'key': 'key-projects-streaming-micronaut',
           'label': 'Micronaut'
         },
         {
-          'key': 'key-projects-1-kafka',
+          'key': 'key-projects-streaming-kafka',
           'label': 'Kafka'
         },
         {
-          'key': 'key-projects-1-cockroach-db',
+          'key': 'key-projects-streaming-cockroach-db',
           'label': 'CockroachDB'
         },
         {
-          'key': 'key-projects-1-gradle',
-          'label': 'Gradle'
+          'key': 'key-projects-streaming-redis',
+          'label': 'Redis'
         },
         {
-          'key': 'key-projects-1-junit',
+          'key': 'key-projects-streaming-junit',
           'label': 'Junit'
         },
         {
-          'key': 'key-projects-1-jenkins',
+          'key': 'key-projects-streaming-gradle',
+          'label': 'Gradle'
+        },
+        {
+          'key': 'key-projects-streaming-jenkins',
           'label': 'Jenkins'
         },
         {
-          'key': 'key-projects-1-grafana',
+          'key': 'key-projects-streaming-grafana',
           'label': 'Grafana'
         },
         {
-          'key': 'key-projects-1-kibana',
+          'key': 'key-projects-streaming-kibana',
           'label': 'Kibana'
         },
         {
-          'key': 'key-projects-1-kubernetes',
+          'key': 'key-projects-streaming-kubernetes',
           'label': 'Kubernetes'
         }
       ]
     }
   },
   {
-    'key': 'key-projects-streaming-platform-2',
+    'key': 'key-projects-data-calculation-platform',
     'header': {
-      'avator': <WorkIcon />,
-      'title': 'Streaming Platform',
+      'avatar': <AccountTreeIcon />,
+      'title': 'Data Calculation Platform',
     },
     'content': {
-      'text': 'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.',
+      'items': [
+        'Provide external source provider to publish source data without data losing',
+        'Provide fast & high availability accurated API'
+      ],
       'skills': [
         {
-          'key': 'key-projects-2-java',
+          'key': 'key-projects-calculation-java',
           'label': 'Java'
         },
         {
-          'key': 'key-projects-2-micronaut',
+          'key': 'key-projects-calculation-micronaut',
           'label': 'Micronaut'
         },
         {
-          'key': 'key-projects-2-kafka',
-          'label': 'Kafka'
+          'key': 'key-projects-calculation-hibernate',
+          'label': 'Hibernate'
         },
         {
-          'key': 'key-projects-2-cockroach-db',
-          'label': 'CockroachDB'
+          'key': 'key-projects-calculation-kafka-stream',
+          'label': 'Kafka Stream'
         },
         {
-          'key': 'key-projects-2-gradle',
-          'label': 'Gradle'
+          'key': 'key-projects-calculation-mysql',
+          'label': 'MySQL'
         },
         {
-          'key': 'key-projects-2-junit',
+          'key': 'key-projects-calculation-couchbase',
+          'label': 'Couchbase'
+        },
+        {
+          'key': 'key-projects-calculation-redis',
+          'label': 'Redis'
+        },
+        {
+          'key': 'key-projects-calculation-junit',
           'label': 'Junit'
         },
         {
-          'key': 'key-projects-2-jenkins',
+          'key': 'key-projects-calculation-gradle',
+          'label': 'Gradle'
+        },
+        {
+          'key': 'key-projects-calculation-jenkins',
           'label': 'Jenkins'
         },
         {
-          'key': 'key-projects-2-grafana',
+          'key': 'key-projects-calculation-grafana',
           'label': 'Grafana'
         },
         {
-          'key': 'key-projects-2-kibana',
+          'key': 'key-projects-calculation-kibana',
           'label': 'Kibana'
         },
         {
-          'key': 'key-projects-2-kubernetes',
+          'key': 'key-projects-calculation-kubernetes',
           'label': 'Kubernetes'
         }
       ]
     }
   },
   {
-    'key': 'key-projects-streaming-platform-3',
+    'key': 'key-projects-chatbox-insurance-agencies',
     'header': {
-      'avator': <WorkIcon />,
-      'title': 'Streaming Platform',
+      'avatar': <SmartToyIcon />,
+      'title': 'Chatbot for Insurance Agencies',
     },
     'content': {
-      'text': 'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.',
+      'items': [
+        'Design chat message with dynamic decision tree structure with NLP technology',
+        'Hybird mobile chatbot for insurance agencies with real time insurance notice search',
+        'Chat history analysis & personalization for insurance agencies'
+      ],
       'skills': [
         {
-          'key': 'key-projects-3-java',
-          'label': 'Java'
+          'key': 'key-projects-chatbot-node-js',
+          'label': 'Node.js'
         },
         {
-          'key': 'key-projects-3-micronaut',
-          'label': 'Micronaut'
+          'key': 'key-projects-chatbot-node-red',
+          'label': 'Node-RED'
         },
         {
-          'key': 'key-projects-3-kafka',
-          'label': 'Kafka'
+          'key': 'key-projects-chatbox-ibm-watson',
+          'label': 'IBM Watson'
         },
         {
-          'key': 'key-projects-3-cockroach-db',
-          'label': 'CockroachDB'
+          'key': 'key-projects-chatbox-ibm-cloudant',
+          'label': 'IBM Cloudant'
         },
         {
-          'key': 'key-projects-3-gradle',
-          'label': 'Gradle'
+          'key': 'key-projects-ibm-devops',
+          'label': 'IBM DevOps'
         },
         {
-          'key': 'key-projects-3-junit',
-          'label': 'Junit'
+          'key': 'key-projects-ibm-angular',
+          'label': 'Angular'
         },
         {
-          'key': 'key-projects-3-jenkins',
-          'label': 'Jenkins'
-        },
-        {
-          'key': 'key-projects-3-grafana',
-          'label': 'Grafana'
-        },
-        {
-          'key': 'key-projects-3-kibana',
-          'label': 'Kibana'
-        },
-        {
-          'key': 'key-projects-3-kubernetes',
-          'label': 'Kubernetes'
+          'key': 'key-projects-chatbot-docker',
+          'label': 'Docker'
         }
       ]
     }
   },
   {
-    'key': 'key-projects-streaming-platform-4',
+    'key': 'key-projects-insurance-auto-claims-platform',
     'header': {
-      'avator': <WorkIcon />,
-      'title': 'Streaming Platform',
+      'avatar': <AutoModeIcon />,
+      'title': 'Insurance Auto Claims Platform',
     },
     'content': {
-      'text': 'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.',
+      'items': [
+        'Scan insurance notice & hide sensetive informantion automatically with OCR technology',
+        'Scan & extract the infomation from the incurance notice for insurance claims automation process',
+        'Provide intractive UI with drag & drop features for user management & adjustment operations'
+      ],
       'skills': [
         {
-          'key': 'key-projects-4-java',
-          'label': 'Java'
+          'key': 'key-projects-claims-python',
+          'label': 'Python'
         },
         {
-          'key': 'key-projects-4-micronaut',
-          'label': 'Micronaut'
+          'key': 'key-projects-claims-google-vision-api',
+          'label': 'Google Vision API'
         },
         {
-          'key': 'key-projects-4-kafka',
-          'label': 'Kafka'
+          'key': 'key-projects-claims-gcp',
+          'label': 'Google Cloud Platform'
         },
         {
-          'key': 'key-projects-4-cockroach-db',
-          'label': 'CockroachDB'
+          'key': 'key-projects-claims-vue',
+          'label': 'Vue.js'
         },
         {
-          'key': 'key-projects-4-gradle',
-          'label': 'Gradle'
-        },
-        {
-          'key': 'key-projects-4-junit',
-          'label': 'Junit'
-        },
-        {
-          'key': 'key-projects-4-jenkins',
-          'label': 'Jenkins'
-        },
-        {
-          'key': 'key-projects-4-grafana',
-          'label': 'Grafana'
-        },
-        {
-          'key': 'key-projects-4-kibana',
-          'label': 'Kibana'
-        },
-        {
-          'key': 'key-projects-4-kubernetes',
-          'label': 'Kubernetes'
+          'key': 'key-projects-chatbot-docker',
+          'label': 'Docker'
         }
       ]
     }
   },
   {
-    'key': 'key-projects-streaming-platform-5',
+    'key': 'key-projects-insurance-agencies-management-platform',
     'header': {
-      'avator': <WorkIcon />,
-      'title': 'Streaming Platform',
+      'avatar': <HealthAndSafetyIcon />,
+      'title': 'Insurance Agencies Management Platform',
     },
     'content': {
-      'text': 'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.',
+      'items': [
+        'Provide interactive UI for user to manage insurance contents, events, milestones, ranking, etc... for mobile app',
+        'Provide hybrid mobile application with charting & push notification for insurance agencies',
+        'Performance optimization on push notification time'
+      ],
       'skills': [
         {
-          'key': 'key-projects-5-java',
+          'key': 'key-projects-insurance-java',
           'label': 'Java'
         },
         {
-          'key': 'key-projects-5-micronaut',
-          'label': 'Micronaut'
+          'key': 'key-projects-insurance-spring',
+          'label': 'Spring'
         },
         {
-          'key': 'key-projects-5-kafka',
-          'label': 'Kafka'
+          'key': 'key-projects-insurance-hibernate',
+          'label': 'Hiberante'
         },
         {
-          'key': 'key-projects-5-cockroach-db',
-          'label': 'CockroachDB'
-        },
-        {
-          'key': 'key-projects-5-gradle',
-          'label': 'Gradle'
-        },
-        {
-          'key': 'key-projects-5-junit',
+          'key': 'key-projects-education-junit',
           'label': 'Junit'
         },
         {
-          'key': 'key-projects-5-jenkins',
-          'label': 'Jenkins'
+          'key': 'key-projects-education-maven',
+          'label': 'Maven'
         },
         {
-          'key': 'key-projects-5-grafana',
-          'label': 'Grafana'
+          'key': 'key-projects-insurance-mssql',
+          'label': 'Microsoft SQL Server'
         },
         {
-          'key': 'key-projects-5-kibana',
-          'label': 'Kibana'
-        },
-        {
-          'key': 'key-projects-5-kubernetes',
-          'label': 'Kubernetes'
+          'key': 'key-projects-insurance-angular',
+          'label': 'Angular'
         }
       ]
     }
   },
   {
-    'key': 'key-projects-streaming-platform-6',
+    'key': 'key-projects-education-center-enrollment-platform',
     'header': {
-      'avator': <WorkIcon />,
-      'title': 'Streaming Platform',
+      'avatar': <SchoolIcon />,
+      'title': 'Education Center Enrollment Platform',
     },
     'content': {
-      'text': 'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.',
+      'items': [
+        'Enrollment system with interative UI for education center',
+        'Provide accurate enrollment status analysis & reporting',
+        'Performance optimization on report generating time'
+      ],
       'skills': [
         {
-          'key': 'key-projects-6-java',
+          'key': 'key-projects-education-java',
           'label': 'Java'
         },
         {
-          'key': 'key-projects-6-micronaut',
-          'label': 'Micronaut'
+          'key': 'key-projects-education-spring',
+          'label': 'Spring'
         },
         {
-          'key': 'key-projects-6-kafka',
-          'label': 'Kafka'
+          'key': 'key-projects-education-hibernate',
+          'label': 'Hibernate'
         },
         {
-          'key': 'key-projects-6-cockroach-db',
-          'label': 'CockroachDB'
-        },
-        {
-          'key': 'key-projects-6-gradle',
-          'label': 'Gradle'
-        },
-        {
-          'key': 'key-projects-6-junit',
+          'key': 'key-projects-education-junit',
           'label': 'Junit'
         },
         {
-          'key': 'key-projects-6-jenkins',
+          'key': 'key-projects-education-maven',
+          'label': 'Maven'
+        },
+        {
+          'key': 'key-projects-education-mssql',
+          'label': 'Microsoft SQL Server'
+        },
+        {
+          'key': 'key-projects-education-angular',
+          'label': 'Angular'
+        }
+      ]
+    }
+  },
+  {
+    'key': 'key-projects-payment-administrator-system',
+    'header': {
+      'avatar': <AccountBalanceWalletIcon />,
+      'title': 'Payment Administrator System',
+    },
+    'content': {
+      'items': [
+        'Provide a secure Payment account connections management for external user',
+        'Integrate with extenal payment gateway in secure channels',
+        'Provide fast & interative search UI for user'
+      ],
+      'skills': [
+        {
+          'key': 'key-projects-payment-java',
+          'label': 'Java'
+        },
+        {
+          'key': 'key-projects-payment-spring',
+          'label': 'Spring'
+        },
+        {
+          'key': 'key-projects-payment-hibernate',
+          'label': 'Hibernate'
+        },
+        {
+          'key': 'key-projects-education-junit',
+          'label': 'Junit'
+        },
+        {
+          'key': 'key-projects-payment-maven',
+          'label': 'Maven'
+        },
+        {
+          'key': 'key-projects-payment-node-js',
+          'label': 'Node.js'
+        },
+        {
+          'key': 'key-projects-payment-vue-js',
+          'label': 'Vue.js'
+        },
+        {
+          'key': 'key-projects-calculation-jenkins',
           'label': 'Jenkins'
         },
         {
-          'key': 'key-projects-6-grafana',
-          'label': 'Grafana'
-        },
-        {
-          'key': 'key-projects-6-kibana',
+          'key': 'key-projects-calculation-kibana',
           'label': 'Kibana'
         },
         {
-          'key': 'key-projects-6-kubernetes',
-          'label': 'Kubernetes'
+          'key': 'key-projects-chatbot-docker',
+          'label': 'Docker'
+        }
+      ]
+    }
+  },
+  {
+    'key': 'key-projects-investment-platform',
+    'header': {
+      'avatar': <AttachMoneyIcon />,
+      'title': 'Investment Platform',
+    },
+    'content': {
+      'items': [
+        'Interative UI for stock market sectors comparison for paid user',
+        'Integrate with internal system for displaying latest investment related information'
+      ],
+      'skills': [
+        {
+          'key': 'key-projects-investment-java',
+          'label': 'Java'
+        },
+        {
+          'key': 'key-projects-investment-spring',
+          'label': 'Spring'
+        },
+        {
+          'key': 'key-projects-investment-hibernate',
+          'label': 'Hibernate'
+        },
+        {
+          'key': 'key-projects-investment-junit',
+          'label': 'Junit'
+        },
+        {
+          'key': 'key-projects-investment-maven',
+          'label': 'Maven'
+        },
+        {
+          'key': 'key-projects-investment-oracle',
+          'label': 'Oracle'
+        },
+        {
+          'key': 'key-projects-investment-free-marker',
+          'label': 'FreeMarker'
+        },
+        {
+          'key': 'key-projects-investment-javascript',
+          'label': 'JavaScript'
+        },
+        {
+          'key': 'key-projects-investment-wildfly',
+          'label': 'Wildfly'
+        }
+      ]
+    }
+  },
+  {
+    'key': 'key-projects-legacy-wesite-revamp',
+    'header': {
+      'avatar': <DynamicFeedIcon />,
+      'title': 'Legacy Website Revamp',
+    },
+    'content': {
+      'items': [
+        'Revamp legacy website to responsive design',
+        'Dynamic route mapping system for user to add feature page on the fly without breaking the existing system',
+        'Performance & SEO optimization'
+      ],
+      'skills': [
+        {
+          'key': 'key-projects-legacy-java',
+          'label': 'Java'
+        },
+        {
+          'key': 'key-projects-legacy-spring',
+          'label': 'Spring'
+        },
+        {
+          'key': 'key-projects-legacy-hibernate',
+          'label': 'Hibernate'
+        },
+        {
+          'key': 'key-projects-legacy-junit',
+          'label': 'Junit'
+        },
+        {
+          'key': 'key-projects-legacy-maven',
+          'label': 'Maven'
+        },
+        {
+          'key': 'key-projects-legacy-h2',
+          'label': 'H2 Database'
+        },
+        {
+          'key': 'key-projects-legacy-redis',
+          'label': 'Redis'
+        },
+        {
+          'key': 'key-projects-legacy-node-js',
+          'label': 'Node.js'
+        },
+        {
+          'key': 'key-projects-legacy-react',
+          'label': 'React'
+        },
+        {
+          'key': 'key-projects-investment-wildfly',
+          'label': 'Wildfly'
+        }
+      ]
+    }
+  },
+  {
+    'key': 'key-projects-stock-charting-platform',
+    'header': {
+      'avatar': <QueryStatsIcon />,
+      'title': 'Stock Charting Platform',
+    },
+    'content': {
+      'items': [
+        'Robust system for data source provider to manage stock data',
+        'Calculate the technical indicator for stocks & plot the stock graphs',
+        'Provide interactive annotation drawing features for stock trending analysis'
+      ],
+      'skills': [
+        {
+          'key': 'key-projects-stock-java',
+          'label': 'Java'
+        },
+        {
+          'key': 'key-projects-stock-spring',
+          'label': 'Spring'
+        },
+        {
+          'key': 'key-projects-stock-hibernate',
+          'label': 'Hibernate'
+        },
+        {
+          'key': 'key-projects-stock-junit',
+          'label': 'Junit'
+        },
+        {
+          'key': 'key-projects-stock-maven',
+          'label': 'Maven'
+        },
+        {
+          'key': 'key-projects-stock-oracle',
+          'label': 'Oracle'
+        },
+        {
+          'key': 'key-projects-stock-javascript',
+          'label': 'JavaScript'
+        },
+        {
+          'key': 'key-projects-stock-high-stock',
+          'label': 'HighStock'
+        },
+        {
+          'key': 'key-projects-stock-wildfly',
+          'label': 'Wildfly'
         }
       ]
     }

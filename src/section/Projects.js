@@ -5,7 +5,14 @@ import CardContent from '@mui/material/CardContent';
 import CardHeader from '@mui/material/CardHeader';
 import Chip from '@mui/material/Chip';
 import Grid from '@mui/material/Grid';
+import List from '@mui/material/List';
+import ListItem from '@mui/material/ListItem';
+import ListItemIcon from '@mui/material/ListItemIcon';
+import ListItemText from '@mui/material/ListItemText';
 import Typography from '@mui/material/Typography';
+
+// icon
+import ThumbUpAltIcon from '@mui/icons-material/ThumbUpAlt';
 
 // component
 import GridContainer from '../component/GridContainer';
@@ -32,6 +39,16 @@ const Projects = () => (
             <Typography>
               {project.content.text}
             </Typography>
+            <List>
+              {project.content.items.map(item =>
+                <ListItem>
+                  <ListItemIcon>
+                    <ThumbUpAltIcon />
+                  </ListItemIcon>
+                  <ListItemText secondary={item} />
+                </ListItem>
+              )}
+            </List>
           </CardContent>
           <CardActions sx={{ flexWrap: 'wrap' }}>
             {project.content.skills.map(skill =>
