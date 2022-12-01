@@ -1,5 +1,4 @@
 import Avatar from '@mui/material/Avatar';
-import Box from '@mui/material/Box';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardHeader from '@mui/material/CardHeader';
@@ -9,6 +8,7 @@ import Stack from '@mui/material/Stack';
 
 // component
 import CardContainer from '../component/CardContainer';
+import ChipContainer from '../component/ChipContainer';
 import GridContainer from '../component/GridContainer';
 import GridItem from '../component/GridItem';
 
@@ -36,9 +36,7 @@ const Header = () => (
             </Stack>
             <Stack direction='row' spacing={1} sx={{ flexWrap: 'wrap' }}>
               {HeaderData.skills.map(skill =>
-                <Box key={skill.key} mb={1}>
-                  <Chip label={skill.label} />
-                </Box>
+                <ChipContainer {...skill} />
               )}
             </Stack>
           </Stack>

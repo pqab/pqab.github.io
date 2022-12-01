@@ -68,7 +68,7 @@ const ProjectsData = [
           'label': 'Kubernetes'
         },
         {
-          'key': 'key-projects-payment-sonar',
+          'key': 'key-projects-streaming-sonar',
           'label': 'SonarQube'
         }
       ]
@@ -139,7 +139,7 @@ const ProjectsData = [
           'label': 'Kubernetes'
         },
         {
-          'key': 'key-projects-payment-sonar',
+          'key': 'key-projects-calculation-sonar',
           'label': 'SonarQube'
         }
       ]
@@ -175,15 +175,15 @@ const ProjectsData = [
           'label': 'IBM Cloudant'
         },
         {
-          'key': 'key-projects-ibm-devops',
+          'key': 'key-projects-chatbox-ibm-devops',
           'label': 'IBM DevOps'
         },
         {
-          'key': 'key-projects-katalon',
+          'key': 'key-projects-chatbox-katalon',
           'label': 'Katalon'
         },
         {
-          'key': 'key-projects-ibm-angular',
+          'key': 'key-projects-chatbox-angular',
           'label': 'Angular'
         },
         {
@@ -223,7 +223,7 @@ const ProjectsData = [
           'label': 'Vue.js'
         },
         {
-          'key': 'key-projects-chatbot-docker',
+          'key': 'key-projects-claims-docker',
           'label': 'Docker'
         }
       ]
@@ -255,11 +255,11 @@ const ProjectsData = [
           'label': 'Hiberante'
         },
         {
-          'key': 'key-projects-education-junit',
+          'key': 'key-projects-insurance-junit',
           'label': 'Junit'
         },
         {
-          'key': 'key-projects-education-maven',
+          'key': 'key-projects-insurance-maven',
           'label': 'Maven'
         },
         {
@@ -343,7 +343,7 @@ const ProjectsData = [
           'label': 'Hibernate'
         },
         {
-          'key': 'key-projects-education-junit',
+          'key': 'key-projects-payment-junit',
           'label': 'Junit'
         },
         {

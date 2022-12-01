@@ -1,5 +1,6 @@
 import CardContent from '@mui/material/CardContent';
 import CardHeader from '@mui/material/CardHeader';
+import { Grow } from '@mui/material';
 import Grid from '@mui/material/Grid';
 import Stack from '@mui/material/Stack';
 import { Box } from '@mui/system';
@@ -32,7 +33,9 @@ const Skills = () => (
               {skill.content.items.map(item =>
                 <Box key={item.key}>
                   <Box mr={1}>{item.name}</Box>
-                  <BorderLinearProgress variant='determinate' value={item.value} />
+                  <Grow in={true} style={{ transformOrigin: '0 0 0' }} timeout={1500}>
+                    <BorderLinearProgress variant='determinate' value={item.value} />
+                  </Grow>
                 </Box>
               )}
             </Stack>
@@ -41,6 +44,6 @@ const Skills = () => (
       </Grid>
     )}
   </GridContainer>
-);
+)
 
 export default Skills;

@@ -5,6 +5,7 @@ import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
+import Slide from '@mui/material/Slide';
 import Timeline from '@mui/lab/Timeline';
 import TimelineItem from '@mui/lab/TimelineItem';
 import TimelineSeparator from '@mui/lab/TimelineSeparator';
@@ -27,43 +28,43 @@ import ExperiencesData from '../data/ExperiencesData';
 import GradeIcon from '@mui/icons-material/Grade';
 
 // Header section
-function Experiences() {
-  return (
-    <GridContainer>
-      <GridItem>
-        <SectionTitle>Experiences</SectionTitle>
-      </GridItem>
-      <GridItem>
-        <CardContainer>
-          <CardContent>
-            <List>
-              {ExperiencesData.responsibilities.map((responsibility, index) =>
-                <ListItem key={'header-responsibilities-' + index}>
-                  <ListItemIcon>
-                    <GradeIcon />
-                  </ListItemIcon>
-                  <ListItemText primary={responsibility} />
-                </ListItem>
-              )}
-            </List>
-          </CardContent>
-        </CardContainer>
-      </GridItem>
-      <GridItem>
-        <Timeline position='alternate'>
-          {ExperiencesData.timeline.map(experience =>
-            <TimelineItem key={experience.key}>
-              <TimelineOppositeContent sx={{ m: 'auto 0' }} align='right' variant='body2' color='text.secondary'>
-                {experience.date}
-              </TimelineOppositeContent>
-              <TimelineSeparator>
-                <TimelineConnector />
-                <TimelineDot>
-                  {experience.icon}
-                </TimelineDot>
-                <TimelineConnector />
-              </TimelineSeparator>
-              <TimelineContent>
+const Experiences = ({show}) => (
+  <GridContainer>
+    <GridItem>
+      <SectionTitle>Experiences</SectionTitle>
+    </GridItem>
+    <GridItem>
+      <CardContainer>
+        <CardContent>
+          <List>
+            {ExperiencesData.responsibilities.map((responsibility, index) =>
+              <ListItem key={'header-responsibilities-' + index}>
+                <ListItemIcon>
+                  <GradeIcon />
+                </ListItemIcon>
+                <ListItemText primary={responsibility} />
+              </ListItem>
+            )}
+          </List>
+        </CardContent>
+      </CardContainer>
+    </GridItem>
+    <GridItem>
+      <Timeline position='alternate'>
+        {ExperiencesData.timeline.map(experience =>
+          <TimelineItem key={experience.key}>
+            <TimelineOppositeContent sx={{ m: 'auto 0' }} align='right' variant='body2' color='text.secondary'>
+              {experience.date}
+            </TimelineOppositeContent>
+            <TimelineSeparator>
+              <TimelineConnector />
+              <TimelineDot>
+                {experience.icon}
+              </TimelineDot>
+              <TimelineConnector />
+            </TimelineSeparator>
+            <TimelineContent>
+              <Slide direction="down" in={show} timeout={1500} mountOnEnter unmountOnExit>
                 <Card>
                   <CardHeader
                     title={experience.header.title}
@@ -77,13 +78,13 @@ function Experiences() {
                     </CardContent>
                   }
                 </Card>
-              </TimelineContent>
-            </TimelineItem>
-          )}
-        </Timeline>
-      </GridItem>
-    </GridContainer>
-  )
-}
+              </Slide>
+            </TimelineContent>
+          </TimelineItem>
+        )}
+      </Timeline>
+    </GridItem>
+  </GridContainer>
+)
 
 export default Experiences;
