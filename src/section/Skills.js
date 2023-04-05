@@ -1,3 +1,4 @@
+import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardHeader from '@mui/material/CardHeader';
 import { Grow } from '@mui/material';
@@ -6,8 +7,9 @@ import Stack from '@mui/material/Stack';
 import { Box } from '@mui/system';
 
 // component
-import BorderLinearProgress from '../component/BorderLinearProgress'
+import BorderLinearProgress from '../component/BorderLinearProgress';
 import CardContainer from '../component/CardContainer';
+import ChipContainer from '../component/ChipContainer';
 import GridContainer from '../component/GridContainer';
 import GridItem from '../component/GridItem';
 import SectionTitle from '../component/SectionTitle';
@@ -30,7 +32,7 @@ const Skills = () => (
           />
           <CardContent>
             <Stack direction='column' spacing={1}>
-              {skill.content.items.map(item =>
+              {skill.content.items.filter(item => item.value > 50).map(item =>
                 <Box key={item.key}>
                   <Box mr={1}>{item.name}</Box>
                   <Grow in={true} style={{ transformOrigin: '0 0 0' }} timeout={1500}>
@@ -40,6 +42,11 @@ const Skills = () => (
               )}
             </Stack>
           </CardContent>
+          <CardActions sx={{ flexWrap: 'wrap', marginTop: 'auto' }}>
+            {skill.content.items.filter(item => item.value <= 50).map(item =>
+              <ChipContainer label={item.name} />
+            )}
+          </CardActions>
         </CardContainer>
       </Grid>
     )}

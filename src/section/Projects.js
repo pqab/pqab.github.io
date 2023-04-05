@@ -10,7 +10,7 @@ import ListItemText from '@mui/material/ListItemText';
 import Typography from '@mui/material/Typography';
 
 // icon
-import ThumbUpAltIcon from '@mui/icons-material/ThumbUpAlt';
+import KeyboardArrowRightOutlinedIcon from '@mui/icons-material/KeyboardArrowRightOutlined';
 
 // component
 import CardContainer from '../component/CardContainer';
@@ -47,7 +47,7 @@ const Projects = ({show}) => (
                 {project.content.items.map((item, index) =>
                   <ListItem key={project.key + '-' + index}>
                     <ListItemIcon>
-                      <ThumbUpAltIcon />
+                      <KeyboardArrowRightOutlinedIcon />
                     </ListItemIcon>
                     <ListItemText secondary={item} />
                   </ListItem>

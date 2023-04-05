@@ -21,7 +21,7 @@ const HeaderData = {
     {
       'key': 'header-item-located',
       'icon': <PublicIcon />,
-      'label': 'Borned in Hong Kong, Located in Tokyo, Japan'
+      'label': 'Born in Hong Kong, Located in Tokyo, Japan'
     },
     {
       'key': 'header-item-personal',

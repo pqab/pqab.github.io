@@ -15,7 +15,7 @@ const ExperiencesData = {
       'icon': <WorkIcon />,
       'header': {
         'title': 'Rakuten Group, Inc.',
-        'subheader': 'Software Engineer'
+        'subheader': 'Lead Software Engineer'
       },
       'content': 'A famous Japanese electronic commerce and online retailing company based in Tokyo.'
     },

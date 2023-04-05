@@ -46,7 +46,7 @@ const SkillsData = [
         {
           'key': 'key-skills-programming-typescript',
           'name': 'TypeScript',
-          'value': 60
+          'value': 50
         },
         {
           'key': 'key-skills-programming-react',
@@ -107,12 +107,12 @@ const SkillsData = [
         {
           'key': 'key-skills-data-cockroach-db',
           'name': 'CockroachDB',
-          'value': 80
+          'value': 60
         },
         {
           'key': 'key-skills-data-oracle',
           'name': 'Oracle',
-          'value': 60
+          'value': 50
         },
         {
           'key': 'key-skills-data-h2',
@@ -178,17 +178,17 @@ const SkillsData = [
         {
           'key': 'key-skills-test-jest',
           'name': 'Jest',
-          'value': 80
+          'value': 70
         },
         {
           'key': 'key-skills-test-sonarqube',
           'name': 'SonarQube',
-          'value': 60
+          'value': 50
         },
         {
           'key': 'key-skills-test-katalon',
           'name': 'Katalon',
-          'value': 60
+          'value': 50
         }
       ]
     }
@@ -229,7 +229,7 @@ const SkillsData = [
         {
           'key': 'key-skills-cicd-alibaba',
           'name': 'Alibaba Cloud',
-          'value': 60
+          'value': 50
         },
         {
           'key': 'key-skills-cicd-gcp',

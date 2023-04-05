@@ -75,71 +75,71 @@ const ProjectsData = [
     }
   },
   {
-    'key': 'key-projects-data-calculation-platform',
+    'key': 'key-projects-data-processing-platform',
     'header': {
       'avatar': <AccountTreeIcon />,
-      'title': 'Data Calculation Platform',
+      'title': 'Data Processinng Platform',
     },
     'content': {
       'items': [
         'Provide external source provider to publish source data without data losing',
-        'Provide fast & high availability accurated API'
+        'Provide fast & high availability accurate API'
       ],
       'skills': [
         {
-          'key': 'key-projects-calculation-java',
+          'key': 'key-projects-processing-java',
           'label': 'Java'
         },
         {
-          'key': 'key-projects-calculation-micronaut',
+          'key': 'key-projects-processing-micronaut',
           'label': 'Micronaut'
         },
         {
-          'key': 'key-projects-calculation-hibernate',
+          'key': 'key-projects-processing-hibernate',
           'label': 'Hibernate'
         },
         {
-          'key': 'key-projects-calculation-kafka-stream',
+          'key': 'key-projects-processing-kafka-stream',
           'label': 'Kafka Stream'
         },
         {
-          'key': 'key-projects-calculation-mysql',
+          'key': 'key-projects-processing-mysql',
           'label': 'MySQL'
         },
         {
-          'key': 'key-projects-calculation-couchbase',
+          'key': 'key-projects-processing-couchbase',
           'label': 'Couchbase'
         },
         {
-          'key': 'key-projects-calculation-redis',
+          'key': 'key-projects-processing-redis',
           'label': 'Redis'
         },
         {
-          'key': 'key-projects-calculation-junit',
+          'key': 'key-projects-processing-junit',
           'label': 'Junit'
         },
         {
-          'key': 'key-projects-calculation-gradle',
+          'key': 'key-projects-processing-gradle',
           'label': 'Gradle'
         },
         {
-          'key': 'key-projects-calculation-jenkins',
+          'key': 'key-projects-processing-jenkins',
           'label': 'Jenkins'
         },
         {
-          'key': 'key-projects-calculation-grafana',
+          'key': 'key-projects-processing-grafana',
           'label': 'Grafana'
         },
         {
-          'key': 'key-projects-calculation-kibana',
+          'key': 'key-projects-processing-kibana',
           'label': 'Kibana'
         },
         {
-          'key': 'key-projects-calculation-kubernetes',
+          'key': 'key-projects-processing-kubernetes',
           'label': 'Kubernetes'
         },
         {
-          'key': 'key-projects-calculation-sonar',
+          'key': 'key-projects-processing-sonar',
           'label': 'SonarQube'
         }
       ]
