@@ -16,7 +16,7 @@ const HeaderData = {
     {
       'key': 'header-item-experiences',
       'icon': <TerminalIcon />,
-      'label': '7+ years of experiences in Software Engineering'
+      'label': '8+ years of experiences in Software Engineering'
     },
     {
       'key': 'header-item-located',

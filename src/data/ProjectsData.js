@@ -78,7 +78,7 @@ const ProjectsData = [
     'key': 'key-projects-data-processing-platform',
     'header': {
       'avatar': <AccountTreeIcon />,
-      'title': 'Data Processinng Platform',
+      'title': 'Data Processing Platform',
     },
     'content': {
       'items': [
