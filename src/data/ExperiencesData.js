@@ -16,9 +16,9 @@ const ExperiencesData = {
       'icon': <WorkIcon />,
       'header': {
         'title': 'Rakuten Group, Inc.',
-        'subheader': 'Lead Software Engineer'
+        'subheader': 'Software Engineer'
       },
-      'content': 'A famous Japanese electronic commerce and online retailing company based in Tokyo.'
+      'content': 'Prominent Tokyo-based tech and e-commerce conglomerate known for its diverse services and commitment to innovation'
     },
     {
       'key': 'key-experiences-accenture',
@@ -28,7 +28,7 @@ const ExperiencesData = {
         'title': 'Accenture',
         'subheader': 'Digital Technology Developer Analyst'
       },
-      'content': 'A global professional services company specializing in information technology services and consulting.'
+      'content': 'Global professional services firm known for its expertise in consulting, digital technology, and operations. With a strong global presence, helps clients across industries navigate complex challenges and embrace innovation'
     },
     {
       'key': 'key-experiences-wintech',
@@ -38,7 +38,7 @@ const ExperiencesData = {
         'title': 'Wintech Network Technology Co., Limited',
         'subheader': 'Analyst Programmer'
       },
-      'content': 'A startup company featured in the R&D of network technologies including data analysis, Apps and more.'
+      'content': 'Technology company specializing in network solutions.  Provide innovative networking products and services to businesses, enabling efficient and reliable connectivity'
     },
     {
       'key': 'key-experiences-hket',
@@ -48,7 +48,7 @@ const ExperiencesData = {
         'title': 'Hong Kong Economic Times Limited',
         'subheader': 'Senior Developer'
       },
-      'content': 'A financial daily newspaper publisher in Hong Kong.'
+      'content': 'Well-known media company in Hong Kong, focusing on economic, financial, and business news'
     },
     {
       'key': 'key-experiences-coventry',
