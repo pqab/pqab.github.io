@@ -154,7 +154,7 @@ const ProjectsData = [
     'content': {
       'items': [
         'Design chat message with dynamic decision tree structure with NLP technology',
-        'Hybird mobile chatbot for insurance agencies with real time insurance notice search',
+        'Hybrid mobile chatbot for insurance agencies with real time insurance notice search',
         'Chat history analysis & personalization for insurance agencies'
       ],
       'skills': [
@@ -202,7 +202,7 @@ const ProjectsData = [
     'content': {
       'items': [
         'Scan insurance notice & hide sensetive informantion automatically with OCR technology',
-        'Scan & extract the infomation from the incurance notice for insurance claims automation process',
+        'Scan & extract the information from the incurance notice for insurance claims automation process',
         'Provide intractive UI with drag & drop features for user management & adjustment operations'
       ],
       'skills': [
@@ -281,7 +281,7 @@ const ProjectsData = [
     },
     'content': {
       'items': [
-        'Enrollment system with interative UI for education center',
+        'Enrollment system with interactive UI for education center',
         'Provide accurate enrollment status analysis & reporting',
         'Performance optimization on report generating time'
       ],
@@ -326,8 +326,8 @@ const ProjectsData = [
     'content': {
       'items': [
         'Provide a secure Payment account connections management for external user',
-        'Integrate with extenal payment gateway in secure channels',
-        'Provide fast & interative search UI for user'
+        'Integrate with external payment gateway in secure channels',
+        'Provide fast & interactive search UI for user'
       ],
       'skills': [
         {
@@ -385,7 +385,7 @@ const ProjectsData = [
     },
     'content': {
       'items': [
-        'Interative UI for stock market sectors comparison for paid user',
+        'Interactive UI for stock market sectors comparison for paid user',
         'Integrate with internal system for displaying latest investment related information'
       ],
       'skills': [
