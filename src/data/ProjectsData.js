@@ -386,7 +386,7 @@ const ProjectsData = [
     'content': {
       'items': [
         'Develop an interactive user interface allowing paid users to compare stock market sectors',
-        'Integrate seamlessly with our internal system to display up-to-date investment-related information'
+        'Integrate seamlessly with internal system to display up-to-date investment-related information'
       ],
       'skills': [
         {
@@ -436,7 +436,7 @@ const ProjectsData = [
     },
     'content': {
       'items': [
-        '"Modernize our legacy website by implementing a responsive design',
+        '"Modernize legacy website by implementing a responsive design',
         'Introduce a dynamic route mapping system, enabling users to add feature pages without disrupting the existing structure',
         'Optimize performance and enhance SEO capabilities'
       ],

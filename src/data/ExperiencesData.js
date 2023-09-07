@@ -7,7 +7,7 @@ const ExperiencesData = {
     'Conduct in-depth study and verification of emerging technical issues during development',
     'Elevate the existing system\'s performance and capabilities through thorough code reviews',
     'Provide clear requirements clarification and support to clients',
-    'Empower and guide new team members, bringing fresh talent into our projects.'
+    'Empower and guide new team members, bringing fresh talent into the projects'
   ],
   'timeline': [
     {
