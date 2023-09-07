@@ -3,10 +3,11 @@ import WorkIcon from '@mui/icons-material/Work';
 
 const ExperiencesData = {
   'responsibilities': [
-    'Participate in requirement analysis, technical studies, system design, implementation',
-    'Collaborate on code reviewing, coaching & integrate with linting, code analysis tools to ensure the quality of the code',
-    'Monitoring & troubleshooting large-scale distributed systems',
-    'Provide customers support'
+    'Collaborate in crafting innovative solutions through requirement analysis, system design, coding, and rigorous unit testing',
+    'Conduct in-depth study and verification of emerging technical issues during development',
+    'Elevate the existing system\'s performance and capabilities through thorough code reviews',
+    'Provide clear requirements clarification and support to clients',
+    'Empower and guide new team members, bringing fresh talent into our projects.'
   ],
   'timeline': [
     {

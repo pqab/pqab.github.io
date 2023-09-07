@@ -16,7 +16,7 @@ const HeaderData = {
     {
       'key': 'header-item-experiences',
       'icon': <TerminalIcon />,
-      'label': '8+ years of experiences in Software Engineering'
+      'label': '8+ years of proven expertise in the field of Software Engineering'
     },
     {
       'key': 'header-item-located',
@@ -26,7 +26,7 @@ const HeaderData = {
     {
       'key': 'header-item-personal',
       'icon': <FavoriteIcon />,
-      'label': 'Passionate about technology, self-motivated and willing to learn'
+      'label': 'Passion for technology, a self-driven attitude, and always eager to learn'
     }
   ],
   'skills': [

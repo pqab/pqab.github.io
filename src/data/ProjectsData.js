@@ -18,9 +18,9 @@ const ProjectsData = [
     },
     'content': {
       'items': [
-        'Provide external source provider to publish source data without data losing',
-        'Generic system to process & aggregate the data by different configurations',
-        'Provide aggregated data for business statistic, analysis & reporting, etc...'
+        'Offer an external source provider solution for seamless source data publication without any loss of data integrity',
+        'Implement a versatile system capable of processing and aggregating data using various configurable settings',
+        'Deliver aggregated data to support diverse business needs such as statistical analysis, reporting, and more'
       ],
       'skills': [
         {
@@ -82,8 +82,8 @@ const ProjectsData = [
     },
     'content': {
       'items': [
-        'Provide external source provider to publish source data without data losing',
-        'Provide fast & high availability accurate API'
+        'Offer an external source provider for seamless publication of source data, ensuring data integrity preservation',
+        'Deliver a responsive and highly available API that provides rapid access to precise information'
       ],
       'skills': [
         {
@@ -153,9 +153,9 @@ const ProjectsData = [
     },
     'content': {
       'items': [
-        'Design chat message with dynamic decision tree structure with NLP technology',
-        'Hybrid mobile chatbot for insurance agencies with real time insurance notice search',
-        'Chat history analysis & personalization for insurance agencies'
+        'Develop a dynamic chat messaging system utilizing cutting-edge NLP technology, structured with a flexible decision tree framework',
+        'Create a hybrid mobile chatbot tailored for insurance agencies, equipped with real-time insurance notice search capabilities',
+        'Leverage chat history analysis to enable personalized interactions and solutions for insurance agencies'
       ],
       'skills': [
         {
@@ -201,9 +201,9 @@ const ProjectsData = [
     },
     'content': {
       'items': [
-        'Scan insurance notice & hide sensetive informantion automatically with OCR technology',
-        'Scan & extract the information from the incurance notice for insurance claims automation process',
-        'Provide intractive UI with drag & drop features for user management & adjustment operations'
+        'Implement an automated insurance notice scanning system powered by OCR technology to automatically redact sensitive information',
+        'Efficiently scan and extract relevant data from insurance notices to streamline the insurance claims automation process',
+        'Offer an intuitive user interface with interactive features, including drag-and-drop functionality, for seamless user management and adjustment operations'
       ],
       'skills': [
         {
@@ -237,9 +237,9 @@ const ProjectsData = [
     },
     'content': {
       'items': [
-        'Provide interactive UI for user to manage insurance contents, events, milestones, ranking, etc... for mobile app',
-        'Provide hybrid mobile application with charting & push notification for insurance agencies',
-        'Performance optimization on push notification time'
+        'Offer an interactive user interface for easy management of insurance content, events, milestones, rankings, and more within a mobile app',
+        'Deliver a hybrid mobile application tailored for insurance agencies, equipped with charting capabilities and push notifications',
+        'Implement performance optimizations to reduce push notification delivery times for enhanced user experience'
       ],
       'skills': [
         {
@@ -281,9 +281,9 @@ const ProjectsData = [
     },
     'content': {
       'items': [
-        'Enrollment system with interactive UI for education center',
-        'Provide accurate enrollment status analysis & reporting',
-        'Performance optimization on report generating time'
+        'Create an interactive enrollment system for educational centers',
+        'Deliver precise enrollment status analysis and reporting',
+        'Optimize performance for faster report generation'
       ],
       'skills': [
         {
@@ -325,9 +325,9 @@ const ProjectsData = [
     },
     'content': {
       'items': [
-        'Provide a secure Payment account connections management for external user',
-        'Integrate with external payment gateway in secure channels',
-        'Provide fast & interactive search UI for user'
+        'Offer a secure payment account connection management system for external users',
+        'Integrate seamlessly with external payment gateways through secure channels',
+        'Deliver a fast and interactive search user interface for a smooth user experience'
       ],
       'skills': [
         {
@@ -385,8 +385,8 @@ const ProjectsData = [
     },
     'content': {
       'items': [
-        'Interactive UI for stock market sectors comparison for paid user',
-        'Integrate with internal system for displaying latest investment related information'
+        'Develop an interactive user interface allowing paid users to compare stock market sectors',
+        'Integrate seamlessly with our internal system to display up-to-date investment-related information'
       ],
       'skills': [
         {
@@ -436,9 +436,9 @@ const ProjectsData = [
     },
     'content': {
       'items': [
-        'Revamp legacy website to responsive design',
-        'Dynamic route mapping system for user to add feature page on the fly without breaking the existing system',
-        'Performance & SEO optimization'
+        '"Modernize our legacy website by implementing a responsive design',
+        'Introduce a dynamic route mapping system, enabling users to add feature pages without disrupting the existing structure',
+        'Optimize performance and enhance SEO capabilities'
       ],
       'skills': [
         {
@@ -496,9 +496,9 @@ const ProjectsData = [
     },
     'content': {
       'items': [
-        'Robust system for data source provider to manage stock data',
-        'Calculate the technical indicator for stocks & plot the stock graphs',
-        'Provide interactive annotation drawing features for stock trending analysis'
+        'Develop a robust data management system for stock data providers',
+        'Calculate technical indicators for stocks and generate interactive stock graphs',
+        'Incorporate interactive annotation drawing features for in-depth stock trend analysis'
       ],
       'skills': [
         {
