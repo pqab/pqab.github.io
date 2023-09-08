@@ -31,7 +31,13 @@ const Header = () => (
           <Stack spacing={2}>
             <Stack direction='column' justifyContent='left' alignItems='flex-start'>
               {HeaderData.items.map(item =>
-                <Chip key={item.key} className='bg-transparent' icon={item.icon} label={item.label} />
+                <Chip sx={{
+                  height: 'auto',
+                  '& .MuiChip-label': {
+                    display: 'block',
+                    whiteSpace: 'normal',
+                  },
+                }} key={item.key} className='bg-transparent' icon={item.icon} label={item.label} />
               )}
             </Stack>
             <Stack direction='row' spacing={1} sx={{ flexWrap: 'wrap' }}>
