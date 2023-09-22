@@ -35,8 +35,16 @@ const HeaderData = {
       'label': 'Java'
     },
     {
+      'key': 'header-skills-spring',
+      'label': 'Spring'
+    },
+    {
       'key': 'header-skills-micronaut',
       'label': 'Micronaut'
+    },
+    {
+      'key': 'header-skills-grpc',
+      'label': 'gRPC'
     },
     {
       'key': 'header-skills-kafka',

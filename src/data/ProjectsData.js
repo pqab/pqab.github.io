@@ -32,6 +32,10 @@ const ProjectsData = [
           'label': 'Micronaut'
         },
         {
+          'key': 'key-projects-streaming-grpc',
+          'label': 'gRPC'
+        },
+        {
           'key': 'key-projects-streaming-kafka',
           'label': 'Kafka'
         },
@@ -93,6 +97,10 @@ const ProjectsData = [
         {
           'key': 'key-projects-processing-micronaut',
           'label': 'Micronaut'
+        },
+        {
+          'key': 'key-projects-processing-grpc',
+          'label': 'gRPC'
         },
         {
           'key': 'key-projects-processing-hibernate',
